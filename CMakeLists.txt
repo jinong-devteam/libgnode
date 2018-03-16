@@ -8,7 +8,7 @@ SET(CMAKE_VERBOSE_MAKEFILE ON)
 find_package(Doxygen)
 if(DOXYGEN_FOUND)
 	add_custom_target(doc
-			${DOXYGEN_EXECUTABLE} doc.src/doxy.conf
+			${DOXYGEN_EXECUTABLE} ../doc.src/doxy.conf
 			WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
 			COMMENT "Generating API documentation with Doxygen" VERBATIM
 			)
