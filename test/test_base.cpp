@@ -1,5 +1,5 @@
 /**
- * \file test.cpp
+ * \file test_base.cpp
  * \brief libgnode 테스트
  */
 #include <stdio.h>
